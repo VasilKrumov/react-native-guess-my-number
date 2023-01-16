@@ -11,19 +11,27 @@ export const StartGameScreen = () => {
                 autoCapitalize="none"
                 autoCorrect={false}
             />
-            <PrimaryButton>Reset</PrimaryButton>
-            <PrimaryButton>Comfirm</PrimaryButton>
+            <View style={styles.buttonsContainer}>
+                <View style={styles.buttonContainer}>
+                    <PrimaryButton>Reset</PrimaryButton>
+                </View>
+                <View style={styles.buttonContainer}>
+                    <PrimaryButton>Comfirm</PrimaryButton>
+                </View>
+            </View>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     inputContainer: {
+        justifyContent: 'center',
+        alignItems: 'center',
         marginTop: 100,
         marginHorizontal: 24,
         borderRadius: 8,
         padding: 16,
-        backgroundColor: '#72063c',
+        backgroundColor: '#3b021f',
         elevation: 4, // android property for box shadow
         shadowColor: '#000', // ios property for box shadow
         shadowOffset: { width: 0, height: 2 }, // ios property for box shadow
@@ -40,5 +48,11 @@ const styles = StyleSheet.create({
         marginVertical: 8,
         fontWeight: 'bold',
         textAlign: 'center',
+    },
+    buttonsContainer: {
+        flexDirection: 'row',
+    },
+    buttonContainer: {
+        flex: 1,
     },
 })
