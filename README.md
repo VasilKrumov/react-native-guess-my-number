@@ -12,13 +12,7 @@ To use the React Native Guess My Number app, follow the steps below:
 
 Before getting started, ensure that you have the following dependencies installed:
 
-1. Node.js: The app requires Node.js to run JavaScript code outside the browser. You can download and install Node.js from the official website: [https://nodejs.org](https://nodejs.org)
-
-2. Expo CLI: The app utilizes Expo, a development toolchain built around React Native. Install the Expo CLI globally on your machine by running the following command in your terminal or command prompt:
-
-   ```bash
-   npm install -g expo-cli
-   ```
+Node.js: The app requires Node.js to run JavaScript code outside the browser. You can download and install Node.js from the official website: [https://nodejs.org](https://nodejs.org)
 
 ### Installation
 
